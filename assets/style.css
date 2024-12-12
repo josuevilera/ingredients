@@ -1,0 +1,139 @@
+/*
+    "#$%&/(/&%$#"#$%&/&%$#
+    mobile design
+*/
+
+/* 
+    TODOS los elementos del BODY.
+    Espaciado de los divs, estilos en general
+*/
+/*1*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    min-width: 300px;
+
+    background-color: #fff6de;
+}
+
+/*2*/
+.main-content {
+    min-width: 10%;
+    justify-content: start;
+    margin: auto;
+
+    background-color: #fff;
+
+    container-name: main;
+}
+
+/*3*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*4.0*/
+/*tiempo de preparación, cuadro luego de la explicación*/
+.preparation-time {
+    margin: 5%;
+    padding: 3%;
+
+    background-color: #fff1fd;
+}
+/*4.1*/
+.time__title {
+    color: #721152;
+}
+
+/*estilos de las letras*/
+
+/*1*/
+/*todos los elementos de texto*/
+h1, p, ul, ol, li, .item__title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size-adjust: initial;
+    text-wrap: pretty;
+    line-height: 170%;
+
+    margin: 3%;
+}
+
+/*2*/
+/*titulos y parrafos*/
+h1, .item__title, p {
+    margin: 7%;
+}
+
+/*3.0*/
+/*
+    etiquetas por separado.
+    estilos a medida
+*/
+
+/*3.1*/
+h1, .item__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*3.2*/
+.item__title {
+    color: #5c322f;
+}
+
+.separator {
+    border-bottom: 1px solid #cacaca;
+    margin: auto;
+    width: 80%;
+}
+
+/*estilos de la tabla (elemento final)*/
+
+/*1*/
+.table {
+    margin: auto;
+}
+
+.column {
+    display: flex;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.first-text{
+    font-weight: 100;
+    margin: auto;
+}
+
+.second-text{
+    color: #5c322f;
+    font-weight: 900;
+    margin: auto;
+}   
+/*responsive*/
+
+@media (min-width: 480px){
+    /*1*/
+    body {
+        min-width: 300px;
+        max-width: 860px;
+        background-color: #fff6de;
+        margin: 54.25px auto;
+    }
+
+    /*2*/
+    .main-content {
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    /*3*/
+    img {
+        border-radius: 15px;
+        margin:auto;
+    }
+}
